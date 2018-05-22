@@ -1,0 +1,19 @@
+{
+  "name": "excel-worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Van Chuong Vo <chuong.2v@gmail.com> (github.com/chuong2v)",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "config": "^1.30.0",
+    "exceljs": "^1.4.6",
+    "lodash": "^4.17.10",
+    "mongoose": "^5.1.2"
+  }
+}
