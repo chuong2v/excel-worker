@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "es7": "node ./node_modules/babel-cli/bin/babel-node.js",
+    "buildDoc": "node ./node_modules/babel-cli/bin/babel-node.js bootstrap/initSwagger.js",
+    "start": "node ./node_modules/babel-cli/bin/babel-node.js index.js",
+    "watch": "./node_modules/nodemon/bin/nodemon.js ./node_modules/babel-cli/bin/babel-node.js index.js"
   },
   "keywords": [],
   "author": "Van Chuong Vo <chuong.2v@gmail.com> (github.com/chuong2v)",
@@ -14,6 +18,11 @@
     "config": "^1.30.0",
     "exceljs": "^1.4.6",
     "lodash": "^4.17.10",
-    "mongoose": "^5.1.2"
+    "mongoose": "^5.1.2",
+    "node-utility": "0.0.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
   }
 }

@@ -1,0 +1,9 @@
+{
+  "application": {
+    "port": 9090
+  },
+  "mongo": {
+    "uri": "mongodb://localhost/thanktriips",
+    "options": {}
+  }
+}
